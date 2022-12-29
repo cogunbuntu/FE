@@ -20,7 +20,9 @@ const GlobalStyle = createGlobalStyle`
 }
 html, body, #__next {
   height: 100%;
-  background-color: #F7F9FA;
+}
+body{
+  background-color: #FFFCF5;
 }
 img, picture, video, svg, canvas {
   display: block;

@@ -3,7 +3,6 @@ import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
 import { Outlet } from "react-router-dom";
 import styled from "styled-components";
 import GlobalStyle from "../lib/styles/globalStyles";
-import palette from "../lib/styles/palette";
 
 function App() {
   const queryClient = new QueryClient({
@@ -30,7 +29,6 @@ const AppLayout = styled.div`
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background: ${palette.sky.lightest};
   padding: 16px;
 `;
 

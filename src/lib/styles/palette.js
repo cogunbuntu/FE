@@ -14,6 +14,10 @@ const palette = {
     base: "#CDCFD0",
     dark: "#979C9E",
   },
+  main: {
+    primary: "#402F25",
+    secondary: "#DEAF8C",
+  },
 };
 
 export default palette;
