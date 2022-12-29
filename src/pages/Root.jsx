@@ -2,6 +2,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
 import { Outlet } from "react-router-dom";
 import styled from "styled-components";
+import Navbar from "../components/Navbar";
 import GlobalStyle from "../lib/styles/globalStyles";
 
 function App() {
@@ -16,9 +17,9 @@ function App() {
   return (
     <QueryClientProvider client={queryClient}>
       <ReactQueryDevtools initialIsOpen={false} />
+      <GlobalStyle />
       <AppLayout>
-        <GlobalStyle />
-        
+        <Navbar />
         <Outlet />
       </AppLayout>
     </QueryClientProvider>
@@ -27,7 +28,6 @@ function App() {
 
 const AppLayout = styled.div`
   display: flex;
-  flex-direction: column;
   min-height: 100vh;
   padding: 16px;
 `;
