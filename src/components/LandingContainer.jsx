@@ -2,12 +2,13 @@ import React from "react";
 import styled from "styled-components";
 import { Healthy } from "../assets/image";
 import palette from "../lib/styles/palette";
+import transitions from "../lib/styles/transitions";
 
 const LandingContainer = () => {
   return (
     <Contents>
       <Title>건기식 백과사전</Title>
-      <HumanImg src={Healthy} alt="" />
+      <HumanImg src={Healthy} alt="사이트 최초 이미지" />
     </Contents>
   );
 };
@@ -28,12 +29,14 @@ const Contents = styled.div`
 const HumanImg = styled.img`
   height: 500px;
   border-radius: 8px;
+  animation: ${transitions.popIn} 1s ease-in-out;
 `;
 
 const Title = styled.div`
   font-family: NeoDunggeunmo;
   font-size: 24px;
   padding: 20px;
+  animation: ${transitions.popIn} 0.5s easㄴe-in-out;
 `;
 
 export default LandingContainer;
