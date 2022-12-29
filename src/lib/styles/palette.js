@@ -13,10 +13,11 @@ const palette = {
     light: "#E3E5E5",
     base: "#CDCFD0",
     dark: "#979C9E",
+    darker: "#f7f7f7",
   },
   main: {
     primary: "#402F25",
-    secondary: "#DEAF8C",
+    secondary: "#446b16",
   },
 };
 

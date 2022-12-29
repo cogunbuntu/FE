@@ -20,7 +20,9 @@ function App() {
       <GlobalStyle />
       <AppLayout>
         <Navbar />
-        <Outlet />
+        <Conetnts>
+          <Outlet />
+        </Conetnts>
       </AppLayout>
     </QueryClientProvider>
   );
@@ -30,6 +32,10 @@ const AppLayout = styled.div`
   display: flex;
   min-height: 100vh;
   padding: 16px;
+`;
+
+const Conetnts = styled.div`
+  flex: 1;
 `;
 
 export default App;
