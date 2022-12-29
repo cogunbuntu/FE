@@ -19,6 +19,7 @@ function App() {
       <ReactQueryDevtools initialIsOpen={false} />
       <AppLayout>
         <GlobalStyle />
+        
         <Outlet />
       </AppLayout>
     </QueryClientProvider>
