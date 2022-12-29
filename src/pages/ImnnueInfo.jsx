@@ -1,5 +1,7 @@
 import React from "react";
 import styled from "styled-components";
+import ReviewBox from "../components/ReviewBox";
+import ReviewForm from "../components/ReviewForm";
 import { DescriptionContainer } from "../lib/styles/commonStyles";
 
 const ImnnueInfo = () => {
@@ -33,6 +35,8 @@ const ImnnueInfo = () => {
       역할을 원활히 수행해야 합니다. 인삼/홍삼 등을 함유한 건강기능식품은 필요한 면역세포를
       증가시키거나 그 기능을 조절하여 면역 능력에 도움을 줄 수 있습니다.
       <SubTitle>면역 기능에 도움을 주는 건강기능식품 기능성 원료는 무엇일까요?</SubTitle>
+      <ReviewBox tag="imnnue" />
+      <ReviewForm tag="imnnues" />
     </DescriptionContainer>
   );
 };

@@ -1,5 +1,7 @@
 import React from "react";
 import styled from "styled-components";
+import ReviewBox from "../components/ReviewBox";
+import ReviewForm from "../components/ReviewForm";
 import { DescriptionContainer } from "../lib/styles/commonStyles";
 
 const JointBonInfo = () => {
@@ -40,6 +42,8 @@ const JointBonInfo = () => {
       관절에서 염증을 유발하는 물질 또는 이를 주로 생성하는 세포의 수를 감소시켜 관절건강에 도움을
       줄 수 있습니다.
       <SubTitle>관절/뼈 건강에 도움을 주는 건강기능식품 기능성 원료는 무엇일까요?</SubTitle>
+      <ReviewBox tag="jointbon" />
+      <ReviewForm tag="jointbon" />
     </DescriptionContainer>
   );
 };

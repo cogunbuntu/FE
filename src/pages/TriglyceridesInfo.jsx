@@ -1,5 +1,7 @@
 import React from "react";
 import styled from "styled-components";
+import ReviewBox from "../components/ReviewBox";
+import ReviewForm from "../components/ReviewForm";
 import { DescriptionContainer } from "../lib/styles/commonStyles";
 
 const TriglyceridesInfo = () => {
@@ -44,6 +46,7 @@ const TriglyceridesInfo = () => {
       중성지방의 농도에 영향을 줍니다.
       <SubTitle>혈중 중성지방 개선에 도움을 주는 건강기능식품 기능성 원료는 무엇일까요?</SubTitle>
       아래 기능성원료를 클릭하시면 기능성원료를 함유한 제품 정보를 확인하실 수 있습니다.
+      <ReviewBox tag="triglycerides" /> <ReviewForm tag="triglycerides" />
     </DescriptionContainer>
   );
 };

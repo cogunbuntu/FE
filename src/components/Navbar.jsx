@@ -7,35 +7,35 @@ import palette from "../lib/styles/palette";
 const Datas = [
   {
     title: "면역력이 좋아지고 싶어요",
-    link: "/info/immun",
+    link: "/immun",
   },
   {
     title: "관절이 안좋아요",
-    link: "/info/jointbon",
+    link: "/jointbon",
   },
   {
     title: "간이 안좋아요",
-    link: "/info/liver",
+    link: "/liver",
   },
   {
     title: "치아가 약해요",
-    link: "/info/mouth",
+    link: "/mouth",
   },
   {
     title: "전립선이 안좋아요",
-    link: "/info/prostate",
+    link: "/prostate",
   },
   {
     title: "피로가 심해요",
-    link: "/info/tiredness",
+    link: "/tiredness",
   },
   {
     title: "소변이 안나와요",
-    link: "/info/urinarytractinfo",
+    link: "/urinarytractinfo",
   },
   {
     title: "혈액지방이 높아요",
-    link: "/info/triglyceridesInfo",
+    link: "/triglyceridesInfo",
   },
 ];
 

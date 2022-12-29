@@ -1,5 +1,7 @@
 import React from "react";
 import styled from "styled-components";
+import ReviewBox from "../components/ReviewBox";
+import ReviewForm from "../components/ReviewForm";
 import { DescriptionContainer } from "../lib/styles/commonStyles";
 
 const UrinaryTractInfo = () => {
@@ -38,6 +40,8 @@ const UrinaryTractInfo = () => {
         요로감염의 주된 원인균인 E. coli의 요로 상피에의 부착을 방지하고, E. coli의 소변 배출을
         촉진하여 박테리아들이 요로를 군락화 하는 것을 막는데 도움을 줄 수 있습니다.
       </Description>
+      <ReviewBox tag="urinarytract" />
+      <ReviewForm tag="urinarytract" />
     </DescriptionContainer>
   );
 };
