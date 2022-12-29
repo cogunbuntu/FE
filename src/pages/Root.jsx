@@ -3,7 +3,7 @@ import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
 import { Outlet } from "react-router-dom";
 import styled from "styled-components";
 import GlobalStyle from "../lib/styles/globalStyles";
-import { palette } from "../lib/styles/palette";
+import palette from "../lib/styles/palette";
 
 function App() {
   const queryClient = new QueryClient({
