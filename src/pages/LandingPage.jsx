@@ -1,11 +1,11 @@
 import React from "react";
 import styled from "styled-components";
-import Example from "../components/Example";
+import Body from "../components/Body";
 
 const LandingPage = () => {
   return (
     <Container>
-      <Example />
+      <Body />
     </Container>
   );
 };
