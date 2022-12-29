@@ -1,9 +1,10 @@
 import React from "react";
 import styled from "styled-components";
+import { DescriptionContainer } from "../lib/styles/commonStyles";
 
 const LiverInfo = () => {
   return (
-    <div>
+    <DescriptionContainer>
       <Title>간 건강이란?</Title>
       <SubTitle>간이 하는 역할은 무엇일까요?</SubTitle>
       <Description>
@@ -52,7 +53,7 @@ const LiverInfo = () => {
       </Description>
       <SubTitle>간 개선에 도움을 주는 건강기능식품 기능성 원료는 무엇일까요?</SubTitle>
       아래 기능성원료를 클릭하시면 기능성원료를 함유한 제품 정보를 확인하실 수 있습니다.
-    </div>
+    </DescriptionContainer>
   );
 };
 

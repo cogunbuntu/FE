@@ -1,9 +1,10 @@
 import React from "react";
 import styled from "styled-components";
+import { DescriptionContainer } from "../lib/styles/commonStyles";
 
 const ProstateInfo = () => {
   return (
-    <div>
+    <DescriptionContainer>
       <Title>전립선 건강이란?</Title>
       <SubTitle>전립선이 하는 역할은 무엇일까요?</SubTitle>
       <Description>
@@ -49,7 +50,7 @@ const ProstateInfo = () => {
       </Description>
       <SubTitle>전립선 건강에 도움을 주는 건강기능식품 기능성 원료는 무엇일까요?</SubTitle>
       아래 기능성원료를 클릭하시면 기능성원료를 함유한 제품 정보를 확인하실 수 있습니다.
-    </div>
+    </DescriptionContainer>
   );
 };
 

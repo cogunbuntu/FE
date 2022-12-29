@@ -1,9 +1,10 @@
 import React from "react";
 import styled from "styled-components";
+import { DescriptionContainer } from "../lib/styles/commonStyles";
 
 const TirednessInfo = () => {
   return (
-    <div>
+    <DescriptionContainer>
       <Title>피로 개선이란?</Title>
       <SubTitle>피로란 무엇일까요?</SubTitle>
       <Description>
@@ -51,7 +52,7 @@ const TirednessInfo = () => {
         피로 개선에 도움을 주는 건강기능식품 기능성 원료는 무엇일까요? 아래 기능성원료를 클릭하시면
         기능성원료를 함유한 제품 정보를 확인하실 수 있습니다.
       </SubTitle>
-    </div>
+    </DescriptionContainer>
   );
 };
 
