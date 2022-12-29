@@ -1,16 +1,23 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import styled from "styled-components";
 import { Example } from "../assets/image";
 import palette from "../lib/styles/palette";
 
 const ListPage = () => {
+  const navigate = useNavigate();
+
   return (
     <>
       <Title>
         <StrongText>귀</StrongText>에 좋은 건강 기능 식품
       </Title>
       <ContentsBox>
-        <Contents>
+        <Contents
+          onClick={() => {
+            navigate("/detail/1");
+          }}
+        >
           <img src={Example} alt="예시 이미지" />
           <DescriptionBox>
             <div>
@@ -63,6 +70,10 @@ const Contents = styled.div`
   font-weight: 700;
   justify-content: center;
   align-items: center;
+  transition: 0.3s ease-in-out;
+  &:hover {
+    scale: 1.02;
+  }
 `;
 
 const DescriptionBox = styled.div`

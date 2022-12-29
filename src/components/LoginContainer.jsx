@@ -10,7 +10,6 @@ const LoginContainer = () => {
     if (Kakao && !Kakao.isInitialized()) {
       Kakao.init(process.env.REACT_APP_KAKAO_KEY);
     }
-    console.log(Kakao.isInitialized());
   };
 
   useEffect(() => {
