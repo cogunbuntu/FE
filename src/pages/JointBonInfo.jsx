@@ -1,9 +1,10 @@
 import React from "react";
 import styled from "styled-components";
+import { DescriptionContainer } from "../lib/styles/commonStyles";
 
 const JointBonInfo = () => {
   return (
-    <div>
+    <DescriptionContainer>
       <Title>관절 뼈 건강이란?</Title>
       <SubTitle>관절/뼈 건강이란 무엇일까요?</SubTitle>
       <Description>
@@ -39,7 +40,7 @@ const JointBonInfo = () => {
       관절에서 염증을 유발하는 물질 또는 이를 주로 생성하는 세포의 수를 감소시켜 관절건강에 도움을
       줄 수 있습니다.
       <SubTitle>관절/뼈 건강에 도움을 주는 건강기능식품 기능성 원료는 무엇일까요?</SubTitle>
-    </div>
+    </DescriptionContainer>
   );
 };
 
