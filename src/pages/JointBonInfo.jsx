@@ -1,5 +1,5 @@
-import { styled } from "@tanstack/react-query-devtools/build/lib/utils";
 import React from "react";
+import styled from "styled-components";
 
 const JointBonInfo = () => {
   return (

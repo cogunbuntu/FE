@@ -1,3 +1,10 @@
 export { default as Root } from "./Root";
 export { default as LandingPage } from "./LandingPage";
 export { default as LoginPage } from "./LoginPage";
+export { default as ImmunInfo } from "./ImnnueInfo";
+export { default as JointBonInfo } from "./JointBonInfo";
+export { default as LiverInfo } from "./LiverInfo";
+export { default as MouthInfo } from "./MouthInfo";
+export { default as ProstateInfo } from "./ProstateInfo";
+export { default as TirednessInfo } from "./TirednessInfo";
+export { default as UrinaryTractInfo } from "./UrinaryTractInfo";
