@@ -6,16 +6,20 @@ import useToggle from "../hook/useToggle";
 import { deletePost } from "../lib/api/post";
 
 const ReviewDeleteForm = (props) => {
+  // eslint-disable-next-line react/prop-types
+  const { postId } = props;
   const [toggle, onChangeToggle] = useToggle();
   const [pw, onChangePw] = useInput();
 
   const queryClient = useQueryClient();
-  // eslint-disable-next-line react/prop-types
-  const { postId } = props;
 
   const { mutate } = useMutation(() => deletePost({ postId, pw }), {
     onSuccess: () => {
       queryClient.invalidateQueries("posts");
+    },
+    onError: () => {
+      // eslint-disable-next-line no-alert
+      alert("다시 시도해 주세요");
     },
   });
 

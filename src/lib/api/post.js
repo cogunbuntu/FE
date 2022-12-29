@@ -20,9 +20,8 @@ export const createPost = async (props) => {
 };
 
 export const deletePost = async (props) => {
-  console.log(props);
   const { postId, pw } = props;
-  const response = await apiClient.delete(`/posts/${postId}`, { pw });
+  const response = await apiClient.delete(`/posts/${postId}?pw=${pw}`);
 
   return response.data;
 };
