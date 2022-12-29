@@ -12,13 +12,14 @@ const ListPage = () => {
       <ContentsBox>
         <Contents>
           <img src={Example} alt="예시 이미지" />
-          <Description>
+          <DescriptionBox>
             <div>
-              <p>제목</p>
-              <p>가격</p>
+              <Description>루테인</Description>
+              <p>카로티노이드 중에서도 잔토필(xanthophylls)의 한 종류.</p>
             </div>
-            <p>설명</p>
-          </Description>
+            <MoreButton>더보기</MoreButton>
+          </DescriptionBox>
+          <div>정보 뿌리기</div>
         </Contents>
         <Contents /> <Contents /> <Contents /> <Contents />
       </ContentsBox>
@@ -64,10 +65,25 @@ const Contents = styled.div`
   align-items: center;
 `;
 
-const Description = styled.div`
+const DescriptionBox = styled.div`
   width: 100%;
   padding: 12px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  font-weight: 500;
   border-bottom: 1px solid ${palette.sky.light};
+`;
+
+const Description = styled.div`
+  font-weight: 700;
+`;
+
+const MoreButton = styled.button`
+  width: 77px;
+  height: 27px;
+  background-color: ${palette.main.primary};
+  border-radius: 8px;
+  font-size: 12px;
+  color: #ffff;
 `;
