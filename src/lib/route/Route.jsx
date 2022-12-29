@@ -10,6 +10,7 @@ import {
   UrinaryTractInfo,
   JointBonInfo,
   ImmunInfo,
+  TriglyceridesInfo,
 } from "../../pages";
 import ListPage from "../../pages/ListPage";
 
@@ -28,10 +29,11 @@ export const router = createBrowserRouter([
       { path: "/info/immun", element: <ImmunInfo /> },
       { path: "/info/jointbon", element: <JointBonInfo /> },
       { path: "/info/liver", element: <LiverInfo /> },
-      { path: "/info/mouse", element: <MouthInfo /> },
+      { path: "/info/mouth", element: <MouthInfo /> },
       { path: "/info/prostate", element: <ProstateInfo /> },
       { path: "/info/tiredness", element: <TirednessInfo /> },
       { path: "/info/urinarytractinfo", element: <UrinaryTractInfo /> },
+      { path: "/info/triglyceridesInfo", element: <TriglyceridesInfo /> },
       { path: "*", element: <Navigate replace to={"/"} /> },
     ],
   },

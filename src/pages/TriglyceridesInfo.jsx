@@ -66,12 +66,4 @@ const Description = styled.div`
   line-height: 30px;
 `;
 
-const MiniTitle = styled.div`
-  font-size: 15px;
-  margin-bottom: 7px;
-  color: #424242;
-  padding-top: 60px;
-  font-weight: 600;
-`;
-
 export default TriglyceridesInfo;

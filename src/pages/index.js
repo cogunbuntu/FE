@@ -8,3 +8,4 @@ export { default as MouthInfo } from "./MouthInfo";
 export { default as ProstateInfo } from "./ProstateInfo";
 export { default as TirednessInfo } from "./TirednessInfo";
 export { default as UrinaryTractInfo } from "./UrinaryTractInfo";
+export { default as TriglyceridesInfo } from "./TriglyceridesInfo";
